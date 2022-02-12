@@ -5,7 +5,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mldangelo/personal-site.git"
+    "url": "https://github.com/yzhang33/yz-personalsite.git"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",

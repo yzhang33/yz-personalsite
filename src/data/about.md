@@ -32,7 +32,7 @@ At ITP, I have learned how to design user-center products and bring that kind of
 - I transfered from a Chinese high school to an American high school called Richard Montgomery High School at age of 16.
 - I am a foodie but also a good cook.
 - I can't locate every country on a map.
-- I am a [INFJ-A](https://www.16personalities.com/infj-personality) personality which known to be the rarest personality types of all.[Photography](https://instagram.com/dangelosaurus)
+- I am a [INFJ-A](https://www.16personalities.com/infj-personality) personality which known to be the rarest personality types of all.
 
 # I dream of
 
