@@ -72,6 +72,15 @@ const data = [
         'Use smile detection algorithm in opencv to track user\'s '
         + ' smile times. Connected the bot with twitter api to send reminder and gifs '
         +" to the user and evoke conversations when smiled."
+    },
+    {
+      title: 'Fruit Light',
+      subtitle: 'Fruit light built by fruit',
+      image: '/images/projects/fruit.png',
+      date: '2020-10-15',
+      link:'https://peridot-harmonica-c3d.notion.site/Fruit-Light-23e517d078f9481a89d5edf046dbffd0',
+      desc:
+        ' A light will show corresponding color of the fruit you touch.'
     }
 ];
 

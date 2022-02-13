@@ -1,110 +1,62 @@
 const positions = [
   {
-    company: 'Arthena',
-    position: 'Co-founder, C.T.O.',
-    link: 'https://arthena.com',
-    daterange: 'January 2014 - Present',
+    company: 'New York University',
+    position: 'Software Engineer',
+    link: '',
+    daterange: 'June 2021 - Present',
     points: [
-      'Deployed quantitative strategies to predict the value of fine art in various pricing contexts.',
-      'Built production, on-line, end-to-end optimized machine learning pipelines with Pandas, Numpy, Scikit, Tensorflow, Dagster, Postgres, etc. on GCP with Kubernetes.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      'YC Alumn. Worked on everything. Built a 16-person team. Operated company for 6+ years.',
+      'Designed and developed a responsive and functional content sharing platform for presenting students\' projects and exchanging ideas.',
+      'Integrated database using MySql that leveraged React architecture to yield on-demand and detailed feedback.',
+      'Designed the software architecture of the project end-to-end, including client and server, deployment, build, and web.',
+      'Implemented a new header component for interactive telecommunication department\'s home page.',
     ],
   },
   {
-    company: 'Skeptical Investments',
-    position: 'Co-founder',
-    link: 'http://skepticalinvestments.biz',
-    daterange: 'April 2017 - Present',
+    company: 'New York University',
+    position: 'Graduate Teaching Assistant',
+    link: '',
+    daterange: 'Sep 2021 - Present',
     points: [
-      'Founded a micro-vc fund to throw token amounts of money at problems I find interesting.',
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
+      'Organized review sessions and independently designed code examples in JavaScript.',
+      'Held weekly office hours where students may need help on assignments.',
+      'Implemented detailed code examples to guide students on JavaScript concepts step by step.'
     ],
   },
   {
-    company: 'Enveritas',
-    position: 'Consultant',
-    link: 'http://enveritas.org',
-    daterange: 'September 2016 - 2018',
+    company: 'Hughes Network Systemritas',
+    position: 'Software Engineer',
+    link: 'https://www.hughes.com/',
+    daterange: 'Feb 2020 - Aug 2020',
     points: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+      'Developed management and control platforms for network scaling using Java, web-based frameworks, and SQL.',
+      'Responsible for software maintenance across the code-base and resolved 30+ critical issues.',
+      'Assisted senior engineers with research, design and test of algorithms and optimizing application performances.',
+      'Designed and developed application components in an agile environment utilizing a test driven development approach.'
     ],
   },
   {
-    company: 'Zenysis',
-    position: 'Consultant',
-    link: 'https://zenysis.com',
-    daterange: 'February 2016 - March 2016',
+    company: 'Autonomy Robotics Cognition Lab',
+    position: 'Computer Vision Research Assistant, Advisor Yiannis Aloimonois',
+    link: 'http://arclab.isr.umd.edu/',
+    daterange: 'June 2019 - Dec. 2019',
     points: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
+      'Designed and implemented graph-based tracking algorithms for human pose data extraction from video files with re-identification for each person using OpenCv and OpenPose built by Carnegie Mellon University.',
+      'Incorporated and visualized Lucas-Kanade Algorithm for real-time optical flow estimation.',
+      'Developed and created a digital video synchronization tool to support researchers to correct video and audio data timeline’s correspondence.',
+      'Improved a matching algorithm that pairs experiment participants to reduce bias with linear programming based optimization methods.'
     ],
   },
   {
-    company: 'Matroid',
-    position: 'Co-founder',
-    link: 'https://matroid.com',
-    daterange: 'July 2015 - January 2016',
+    company: 'MPLEX Crop.',
+    position: 'Virtual Reality Game Developer Intern',
+    link: '',
+    daterange: 'Feb 2019 - May 2019',
     points: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Node.JS, Express, Keystone, MongoDB, AWS, S3, Caffe, and other technologies.',
-      'Received Series A term sheets for 20M+ valuations.',
+      'Rendered game’s special effects using Unreal game engine’s particle system and develop simulation components and movement system.',
+      'Collaborated with team members on performance improvements and resolve in game component issues.',
+      'Collaborated with a team of artists and software engineers to design effective solutions to software and game development challenges.'
     ],
-  },
-  {
-    company: 'Planet',
-    position: 'Missions Intern',
-    link: 'https://planet.com',
-    daterange: 'June 2014 - January 2015',
-    points: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    company: 'Planetary Resources',
-    position: 'Avionics Intern',
-    link: 'http://planetaryresources.com',
-    daterange: 'January 2014 - May 2014',
-    points: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    company: 'Facebook',
-    position: 'Intern',
-    link: 'https://facebook.com',
-    daterange: 'June 2013 - September 2013',
-    points: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM’s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    company: 'SEDS-USA',
-    position: 'At Large Board Member',
-    link: 'http://seds.org',
-    daterange: 'October 2013 - October 2014',
-    points: [
-      'Elected to Board of Directors of the USA’s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    company: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    link: 'https://ubnl.space/',
-    daterange: 'October 2010 – June 2012',
-    points: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
-    ],
-  },
+  }
 ];
 
 export default positions;
