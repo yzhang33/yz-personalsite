@@ -12,6 +12,7 @@ const Index = lazy(() => import('./pages/Index'));
 const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 const Stats = lazy(() => import('./pages/Stats'));
+
 const { PUBLIC_URL } = process.env;
 
 const App = () => (

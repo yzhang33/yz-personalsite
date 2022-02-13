@@ -1,48 +1,78 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Fruit Light',
-    subtitle: 'Physcial Computing',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2020-12-10',
+    title: 'Binary Clock Light',
+    subtitle: 'Light and Interactivity',
+    image: '/images/projects/clocklight.jpg',
+    date: '2022-02-01',
+    link:'https://peridot-harmonica-c3d.notion.site/Clock-Candle-db95a83263174c84b71b37591f7aa382',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
-  },
-  {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
-  },
-  {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
-  },
-  {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
-  },
+      'Built to count time using neopixel lights. '
+      + 'You can send anytime in the world to the light from the web client. '
+      + 'The light only shows the color combination based on current time.'
+      + ' Sort of tells the time isn\'it?.',
+    },
+    {
+      title: 'Wine Quality Classifier',
+      subtitle: 'Kaggle Data to TensorFlow.js',
+      link: 'https://peridot-harmonica-c3d.notion.site/Wine-Quality-Checker-e616445d5dcc4211a8be4bd2bb5f36ab',
+      image: '/images/projects/wine.jpg',
+      date: '2021-12-01',
+      desc:
+        'Self trained a nerual network to classify wine quality'
+        + 'Exported the model to tensorflow.js and designed a front end in p5.js.'
+    },
+    {
+      title:'River Flows',
+      subtitle:'light project',
+      image:'/images/projects/river.jpg',
+      date:'2021-12-10',
+      desc:
+        'A light representing where my heart lies, where my childhood begins,'
+        + 'where I find love, where I get lost, and where I will never forget.'
+    },
+    {
+      title: 'Deep Look into RESTful APIs',
+      subtitle: 'Wrote an article for a network class.',
+      link: 'https://itp.nyu.edu/networks/explanations/rest/',
+      image: '/images/projects/restapi.png',
+      date: '2021-12-10',
+      desc:
+        'Worte a rest api article to understanding networks class. '
+        + 'Explain what is rest and restful and the history of rest.' 
+        + ' Deep dive into restful apis and their use case.'
+    },
+    {
+      title: 'Face Doodle',
+      subtitle: 'A doodle drawing of your face',
+      image: '/images/projects/face.png',
+      date: '2021-10-15',
+      link:'https://github.com/yzhang33/doodleface.github.io',
+      desc:
+        'A drwaing of you face using medipeipe\'s face mesh and javascript.'
+    },
+    {
+      title: 'Hand Gesture Classfication',
+      subtitle: 'punch game',
+      image: '/images/projects/punch.png',
+      date: '2021-6-15',
+      link:'https://github.com/yzhang33/ML4Pcom/tree/main/punchgame',
+      desc:
+        'Collect punch and flex IMU data from the arduino and use these'
+        + ' data trained a nerual network to classfiy punch and flex movments'
+        + ' then developed a javascript game in p5 and connected the game with the arduino as a controller.'
+    },
+    {
+      title: 'Smile Detector',
+      subtitle: 'A smile detector',
+      image: '/images/projects/smile.jpg',
+      date: '2021-10-15',
+      link:'https://github.com/yzhang33/smile_dector',
+      desc:
+        'Use smile detection algorithm in opencv to track user\'s '
+        + ' smile times. Connected the bot with twitter api to send reminder and gifs '
+        +" to the user and evoke conversations when smiled."
+    }
 ];
 
 export default data;
