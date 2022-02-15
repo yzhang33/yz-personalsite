@@ -23,6 +23,15 @@ const data = [
         + 'Exported the model to tensorflow.js and designed a front end in p5.js.'
     },
     {
+      title:'Hand Digits Recognition',
+      subtitle:'machine learning',
+      link:"https://colab.research.google.com/drive/15q7uAtOwgmkUL-7bjjtdHJBHhUYW9wr_?usp=sharing",
+      image:'/images/projects/hand.jpg',
+      date:'2021-10-10',
+      desc:
+        'Built a convoluted nerual network to recognize hand written digits'
+    },
+    {
       title:'River Flows',
       subtitle:'light project',
       image:'/images/projects/river.jpg',
