@@ -10,6 +10,7 @@ Download this git report and run, I think the original source has some installti
  
 ```bash
 git clone https://github.com/yzhang33/yz-personalsite.git
+cd yz-personalsite
 npm install
 ```
 
