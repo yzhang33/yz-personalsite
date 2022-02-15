@@ -29,7 +29,7 @@ const data = [
       image:'/images/projects/hand.jpg',
       date:'2021-10-10',
       desc:
-        'Built a convoluted nerual network to recognize hand written digits'
+        'Built a convoluted neural network to recognize hand written digits'
     },
     {
       title:'River Flows',
